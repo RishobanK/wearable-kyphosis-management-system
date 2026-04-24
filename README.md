@@ -28,10 +28,12 @@ The system is integrated into a wearable back brace for continuous posture monit
 ---
 
 ## 🧩 System Architecture
-EMG Sensors ─┐
-├──> ESP32 ───> Signal Processing ───> Posture Detection ───> Vibration Feedback
-IMU Sensors ─┘
 
+```text
+EMG Sensors ─┐
+             ├──> ESP32 ───> Signal Processing ───> Posture Detection ───> Vibration Feedback
+IMU Sensors ─┘
+```
 ---
 
 ## 🖼️ Hardware Design
@@ -65,16 +67,15 @@ IMU Sensors ─┘
 
 ## 📁 Repository Structure
 
+```text
 wearable-kyphosis-management-system/
-│
-├── firmware/ # Embedded code (ESP32 / Arduino)
-├── hardware/ # PCB + hardware design details
-├── signal-processing/ # EMG filtering and analysis (Python)
-├── docs/ # Project report and documentation
-├── images/ # Project images
+├── firmware/              # Embedded code (ESP32 / Arduino)
+├── hardware/              # PCB + hardware design details
+├── signal-processing/     # EMG filtering and analysis (Python)
+├── docs/                  # Project report and documentation
+├── images/                # Project images
 └── README.md
-
-
+```
 ---
 
 ## ⚙️ Technologies Used
