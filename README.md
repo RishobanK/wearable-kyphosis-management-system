@@ -102,9 +102,7 @@ wearable-kyphosis-management-system/
 
 ## 📄 Documentation
 
-Full project report available in:
-docs/kyphosis_project_report.pdf
-
+Full project report available here: [kyphosis_project_report.pdf](docs/kyphosis_project_report.pdf)
 
 ---
 
