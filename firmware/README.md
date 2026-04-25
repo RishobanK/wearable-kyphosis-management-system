@@ -3,12 +3,12 @@
 This folder contains embedded firmware for the wearable kyphosis monitoring system.
 
 ## Project Structure
-
+```text
 esp32_sensor_acquisition/
 ├── platformio.ini
 └── src/
     └── main.cpp
-
+```
 ---
 
 ## Overview
